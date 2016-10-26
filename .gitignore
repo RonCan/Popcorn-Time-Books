@@ -3,5 +3,4 @@ bower_components/
 .idea/
 npm-debug.log
 books/
-content/
 cache/

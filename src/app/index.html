@@ -62,7 +62,7 @@
 <!-- Your application bootstrap  -->
 <script type="text/javascript">
     function DialogController($scope, $mdDialog) {
-        var Book = ePub("The Second Sex - Beauvoir, Simone de.epub");
+        var Book = ePub("./content/The Second Sex - Beauvoir, Simone de.epub");
         $scope.hide = function() {
             $mdDialog.hide();
         };
@@ -80,7 +80,7 @@
     /**
      * You must include the dependency on 'ngMaterial'
      */
-    var libgenio = require("./libgenio");
+    var libgenio = require("./scripts/node/libgenio");
     angular.module('BlankApp1', ['ngMaterial','ngMessages'])
             .controller('AppCtrl', function($scope, $mdDialog, $mdMedia) {
                 $scope.isOpen = false;
