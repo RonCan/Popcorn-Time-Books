@@ -8,6 +8,10 @@
     "width": 800,
     "height": 600
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp run"
+  },
   "dependencies": {
     "angular": "^1.5.3",
     "angular-material": "^1.0.7",
@@ -16,13 +20,16 @@
     "libgen": "^0.4.4",
     "request": "latest"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "HD <harundilshad@gmail.com>",
   "license": "GPL-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/RonCan/Popcorn-Time-Books"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "nw-builder": "^3.1.2",
+    "yargs": "^6.3.0"
   }
 }
