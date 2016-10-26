@@ -1,8 +1,8 @@
 {
-  "name": "aristotle",
-  "version": "1.0.0",
+  "name": "popcorn-time-books",
+  "version": "1.0.1",
   "description": "Popcorn time for readers",
-  "main": "index.html",
+  "main": "src/app/index.html",
   "window": {
     "toolbar": true,
     "width": 800,
@@ -19,10 +19,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "sargekhan <usmankhen@gmail.com>",
+  "author": "HD <harundilshad@gmail.com>",
   "license": "GPL-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SargeKhan/aristotle.git"
+    "url": "https://github.com/RonCan/Popcorn-Time-Books"
   }
 }
